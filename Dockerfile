@@ -15,7 +15,8 @@ RUN yum -y update
 RUN yum -y install php56u-fpm php56u php56u-opcache php56u-xml php56u-mcrypt php56u-gd php56u-devel php56u-mysql php56u-intl php56u-mbstring php56u-bcmath php56u-pecl-memcache
 
 # Installing mysql
-RUN yum -y install mysql-server mysql-client
+# RUN yum -y install mysql-server mysql-client
+RUN yum -y install MariaDB-server MariaDB-client
 
 # Installing nginx 
 RUN yum -y install nginx
