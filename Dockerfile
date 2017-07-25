@@ -2,7 +2,7 @@
 # INFRA-RELAY-PHP CentOS with Web Application Components on Codeship
 #
 FROM centos:6
-MAINTAINER Louie Miranda <lmiranda@gmail.com>
+MAINTAINER Pooja Pande <poojap@chimeratechnologies.com>
 
 RUN yum -y install epel-release
 RUN yum -y install wget
